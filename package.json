@@ -1,20 +1,16 @@
 {
-  "name": "@jonerbe1995/Gofer.git",
-  "version": "1.0.0",
-  "description": "Social app that captures users within a 10m circle of their current location.",
-  "main": "index.js",
+  "name": "gofer",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonerbe1995/Gofer.git"
-  },
-  "author": "jonerbe1995",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonerbe1995/Gofer/issues"
-  },
-  "homepage": "https://github.com/jonerbe1995/Gofer#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
